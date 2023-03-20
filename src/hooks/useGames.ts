@@ -22,8 +22,9 @@ export default function useGames(
   return useData<Game>('/games', 
   {params: {
     genres: gameQuery.genre?.id, 
-    platforms: gameQuery.platform?.id
-  }, 
-  }, 
+    platforms: gameQuery.platform?.id,
+    ordering: gameQuery.sortOrder,
+    search: gameQuery.searchText,
+  } }, 
   [gameQuery])
 }
