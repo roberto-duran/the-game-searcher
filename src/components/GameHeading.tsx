@@ -10,7 +10,7 @@ export default function GameHeading ({ gameQuery }: Props) {
     gameQuery.genre?.name || ''
   } Games`
   return (
-    <Heading as='h1' marginY={5}>
+    <Heading as='h1' fontSize='2xl' marginY={5}>
       {heaing}
     </Heading>
   )
