@@ -4,7 +4,7 @@ import CriticScore from './CriticScore'
 import Emoji from './Emoji'
 import PlatformIcon from './PlatformIcon'
 import { Link } from 'react-router-dom'
-import { Game } from '../types/game'
+import { Game } from '../types/Game'
 
 interface Props {
   game: Game
