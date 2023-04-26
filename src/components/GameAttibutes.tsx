@@ -1,4 +1,4 @@
-import { Game } from '../types/Game'
+import Game from '../types/Game'
 import { SimpleGrid, Text } from '@chakra-ui/react'
 import CriticScore from './CriticScore'
 import DefinitionItem from './DefinitionItem'
