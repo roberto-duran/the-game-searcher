@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom'
 import useGame from '../hooks/useGame'
 import { GridItem, Heading, SimpleGrid, Spinner } from '@chakra-ui/react'
 import ExpandableText from '../components/ExpandableText'
-import GameAttibutes from '../components/GameAttibutes'
+import GameAttributes from '../components/GameAttributes'
 import GameTrailer from '../components/GameTrailer'
 import GameScreenshots from '../components/GameScreenshots'
 
@@ -18,7 +18,7 @@ export default function GameDetailPage () {
       <GridItem>
         <Heading>{game.name}</Heading>
         <ExpandableText text={game.description_raw} />
-        <GameAttibutes game={game} />
+        <GameAttributes game={game} />
       </GridItem>
       <GridItem>
         <GameTrailer gameId={game.id} />

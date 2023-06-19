@@ -7,7 +7,7 @@ type Props = {
   game: Game
 }
 
-export default function GameAttibutes ({ game }: Props) {
+export default function GameAttributes ({ game }: Props) {
   return (
     <SimpleGrid columns={2} as='dl'>
       <DefinitionItem term='Paltforms'>
